@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="index.css">
+      <title>Gallery</title>
+</head>
+
+<body>
+      <div class="grid-container">
+            <header class="header">
+                  <div class="brand">
+                        <button onclick="openMenu()">
+                              &#9776;
+                        </button>
+                        <a href="index.html"> Gallery</a>
+                  </div>
+                  <div class="header-links">
+                        <a href="dashboard.html">Dashboard</a>
+                        <a href="signin.html">Sign in </a>
+                  </div>
+            </header>
+            <aside class="sidebar">
+                  <h3>Gallery Categories</h3>
+                  <button class="remove-sidebar" onclick="removeMenu()"> <i class="fa fa-arrow-left"></i></button>
+                  <ul>
+                        <li>
+                              <a href="index.html">animals</a>
+                        </li>
+                        <li>
+                              <a href="index.html">Nature</a>
+                        </li>
+                        <li>
+                              <a href="index.html">House</a>
+                        </li>
+                        <li>
+                              <a href="index.html">Background</a>
+                        </li>
+                  </ul>
+
+            </aside>
+            <main class="main">
+                  <div class="content">
+                        <ul class="products">
+                              <li>
+                                    <div class="product">
+                                          <img class="product-image" src="images/im1.jpg" alt="">
+                                          <div class="product-name">
+                                                <a href="product.html"> slime shirt</a> </div>
+                                          <div class="product-brand">Nick</div>
+                                          <div class="product-price">$24</div>
+                                          <div class="product-rating">4.5 Stars (10 Review)</div>
+                                    </div>
+                              </li>
+                              <li>
+                                    <div class="product">
+                                          <img class="product-image" src="images/im1.jpg" alt="">
+                                          <div class="product-name">
+                                                <a href="product.html"> slime shirt</a> </div>
+                                          <div class="product-brand">Nick</div>
+                                          <div class="product-price">$24</div>
+                                          <div class="product-rating">4.5 Stars (10 Review)</div>
+                                    </div>
+                              </li>
+                              <li>
+                                    <div class="product">
+                                          <img class="product-image" src="images/im1.jpg" alt="">
+                                          <div class="product-name">
+                                                <a href="product.html"> slime shirt</a> </div>
+                                          <div class="product-brand">Nick</div>
+                                          <div class="product-price">$24</div>
+                                          <div class="product-rating">4.5 Stars (10 Review)</div>
+                                    </div>
+                              </li>
+                              <li>
+                                    <div class="product">
+                                          <img class="product-image" src="images/im1.jpg" alt="">
+                                          <div class="product-name">
+                                                <a href="product.html"> slime shirt</a> </div>
+                                          <div class="product-brand">Nick</div>
+                                          <div class="product-price">$24</div>
+                                          <div class="product-rating">4.5 Stars (10 Review)</div>
+                                    </div>
+                              </li>
+                              <li>
+                                    <div class="product">
+                                          <img class="product-image" src="images/im1.jpg" alt="">
+                                          <div class="product-name">
+                                                <a href="product.html"> slime shirt</a> </div>
+                                          <div class="product-brand">Nick</div>
+                                          <div class="product-price">$24</div>
+                                          <div class="product-rating">4.5 Stars (10 Review)</div>
+                                    </div>
+                              </li>
+                              <li>
+                                    <div class="product">
+                                          <img class="product-image" src="images/im1.jpg" alt="">
+                                          <div class="product-name">
+                                                <a href="product.html"> slime shirt</a> </div>
+                                          <div class="product-brand">Nick</div>
+                                          <div class="product-price">$24</div>
+                                          <div class="product-rating">4.5 Stars (10 Review)</div>
+                                    </div>
+                              </li>
+                        </ul>
+            </main>
+            <footer class="footer">
+                  Made by@ <b>Murtaza</b>
+            </footer>
+      </div>
+      </div>
+      <script>
+
+function openMenu(){
+      document.querySelector(".sidebar").classList.add("open")
+}
+function removeMenu(){
+      document.querySelector(".sidebar").classList.remove("open")
+}
+      </script>
+</body>
+
+</html>

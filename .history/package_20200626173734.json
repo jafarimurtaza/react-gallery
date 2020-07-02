@@ -1,0 +1,15 @@
+{
+  "name": "my_gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exe",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "murtaza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
