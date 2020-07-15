@@ -3,7 +3,12 @@ import data from "./data";
 import dotenv from "dotenv";
 import config from "./config";
 import mongoose from "mongoose";
+import bodyParser from "body-parser";
 import userRoute from "./routes/userRoutes";
+import productRoute from './routes/productRoutes';
+
+
+
 
 dotenv.config();
 
@@ -18,7 +23,11 @@ mongoose
 
 const app = express();
 
+app.use(bodyParser.json());
 app.use("/api/users", userRoute);
+app.use("/api/products", productRoute);
+
+
 app.get("/api/products/:id", (req, res) => {
   const productId = req.params.id;
   const product = data.products.find((x) => x._id === productId);
