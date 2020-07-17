@@ -8,8 +8,6 @@ import userRoute from "./routes/userRoutes";
 import productRoute from './routes/productRoutes';
 
 
-
-
 dotenv.config();
 
 const mongodbUrl = config.MONGODB_URL;
@@ -27,8 +25,8 @@ app.use(bodyParser.json());
 app.use("/api/users", userRoute);
 app.use("/api/products", productRoute);
 
-
 app.get("/api/products/:id", (req, res) => {
+
   const productId = req.params.id;
   const product = data.products.find((x) => x._id === productId);
   if (product) res.send(product);
