@@ -212,7 +212,7 @@
     "path-dirname": "^1.0.2",
     "path-exists": "^3.0.0",
     "path-is-absolute": "^1.0.1",
-    "path-parse": "^1.0.6",
+    "path-parse": "^1.0.7",
     "path-to-regexp": "^0.1.7",
     "picomatch": "^2.2.2",
     "pify": "^4.0.1",
