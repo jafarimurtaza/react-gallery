@@ -157,7 +157,7 @@
     "js-tokens": "^4.0.0",
     "jsesc": "^2.5.2",
     "json-buffer": "^3.0.0",
-    "json5": "^2.1.3",
+    "json5": "^2.2.2",
     "keyv": "^3.1.0",
     "kind-of": "^6.0.3",
     "latest-version": "^5.1.0",
